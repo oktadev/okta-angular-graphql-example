@@ -5,7 +5,7 @@ This repository shows you how to consume a GraphQL API from Angular. Please read
 **Prerequisites:**
 
 - [Node 14](https://nodejs.org/)
-- [Okta CLI](https://github.com/okta/okta-cli)
+- [Okta CLI](https://cli.okta.com)
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 
@@ -19,13 +19,13 @@ This repository shows you how to consume a GraphQL API from Angular. Please read
 To run this example, run the following commands:
 
 ```bash
-git clone https://github.com/holgerschmitz/angular-graphql.git
-cd angular-graphql
+git clone https://github.com/oktadev/okta-angular-graphql-example.git
+cd okta-angular-graphql-example
 ```
 
 ### Create an OIDC Application in Okta
 
-Create a free developer account with the following command using the [Okta CLI](https://github.com/okta/okta-cli):
+Create a free developer account with the following command using the [Okta CLI](https://cli.okta.com):
 
 ```shell
 okta register
@@ -82,13 +82,13 @@ cd graphql-client
 npm install
 ```
 
-Start the chat server in one terminal window with `node app.js`, and the chat client in another window.
+Start the GraphQL server in one terminal window with `node app.js`, and the Angular GraphQL client in another window.
 
 ```shell
 ng serve
 ```
 
-Open `http://localhost:4200` in your favorite browser and you should be able to log in.
+Open `http://localhost:4200` in your favorite browser and you should be able to log in and query for Star Wars characters.
 
 ## Links
 
