@@ -8,7 +8,7 @@ import { CharactersService, Species } from '../characters.service';
   styleUrls: ['./species.component.css']
 })
 export class SpeciesComponent implements OnInit {
-  species?: Species;
+  species!: Species;
 
   constructor(private route: ActivatedRoute, private characterService: CharactersService) { }
 
