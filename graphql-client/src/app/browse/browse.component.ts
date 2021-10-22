@@ -11,14 +11,14 @@ export class BrowseComponent implements OnInit {
   count: number = 0;
   characters: Character[] = [];
 
-  constructor(private characterService: CharactersService) {}
+  constructor(private charactersService: CharactersService) {}
 
   async ngOnInit(): Promise<void> {
     await this.updateCharacters();
   }
 
   async updateCharacters() {
-    const result = await this.characterService.getCharacters(this.offset);
+    const result = await this.charactersService.getCharacters(this.offset);
     this.count = result.count;
     this.characters = result.characters;
   }
