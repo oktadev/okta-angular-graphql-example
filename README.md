@@ -1,6 +1,6 @@
 # Consume a GraphQL API from Angular Example
 
-This repository shows you how to consume a GraphQL API from Angular. Please read [How to Consume a GraphQL API from Angular][blog] to see how it was created.
+This repository shows you how to consume a GraphQL API from Angular. Please read [A Quick Guide to Angular and GraphQL][blog] to see how it was created.
 
 **Prerequisites:**
 
@@ -105,4 +105,4 @@ Please post any questions as comments on the [blog post][blog], or visit our [Ok
 
 Apache 2.0, see [LICENSE](LICENSE).
 
-[blog]: https://developer.okta.com/blog/2021/xyz
+[blog]: https://developer.okta.com/blog/2021/10/22/angular-graphql
